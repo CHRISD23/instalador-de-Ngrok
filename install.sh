@@ -1,7 +1,7 @@
 
 #!/bin/bash
   clear
-  echo "Bienvenido al Instalador de Ngrok"
+  echo "Bienvenido al Instalador de Ngrok by CHRISD23"
   sleep 3
   echo ""
   echo "Detectando arquitectura espere...."
@@ -11,7 +11,7 @@
   url='https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip'
 case $arq in
  'arm') echo "Descargando ngrok AARCH64"
-        wget $url
+      wget $url
        ;;
   'armhf') echo "Descargando Ngrok ARMHF"
       wget $url
