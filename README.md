@@ -1,6 +1,6 @@
 # instalador-de-Ngrok
 esta herramienta va a instalar ngrok segun la arquitectura de su dispositivo 
-INSTALACION 
+METODO DE INSTALACION 
 
 bash ./install.sh
 
