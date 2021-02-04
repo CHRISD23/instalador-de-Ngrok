@@ -1,4 +1,3 @@
-
 #!/bin/bash
   clear
   echo "Bienvenido al Instalador de Ngrok by CHRISD23"
@@ -10,13 +9,13 @@
   echo "Su arquitectura es ${arq}"
   url='https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip'
 case $arq in
- 'arm') echo "Descargando ngrok AARCH64"
+ 'arm') echo "Descargando ngrok ARM"
       wget $url
        ;;
-  'armhf') echo "Descargando Ngrok ARMHF"
+  'armhf') echo "Descargando ngrok ARMHF"
       wget $url
         ;;
-   *) echo "Arquitevtura desconocida"
+   *) echo "Arquitectura desconocida"
         exit
         ;;
   esac
